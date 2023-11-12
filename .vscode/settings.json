@@ -1,0 +1,14 @@
+{
+  "workbench.colorCustomizations": {
+    "sash.hoverBorder": "#a911da",
+    "statusBar.background": "#840dab",
+    "statusBar.border": "#840dab",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#a911da",
+    "statusBarItem.remoteBackground": "#840dab",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "tab.activeBorder": "#a911da"
+  },
+  "peacock.color": "#840dab",
+  "cSpell.words": ["heroicons", "Lusitana", "sidenav"]
+}
