@@ -71,7 +71,7 @@ importers:
         version: 14.2.25(eslint@9.23.0(jiti@1.21.7))(typescript@5.8.2)
       eslint-config-prettier:
         specifier: ^9.0.0
-        version: 9.0.0(eslint@9.23.0(jiti@1.21.7))
+        version: 9.1.0(eslint@9.23.0(jiti@1.21.7))
       prettier:
         specifier: 3.5.3
         version: 3.5.3
@@ -708,8 +708,8 @@ packages:
       typescript:
         optional: true
 
-  eslint-config-prettier@9.0.0:
-    resolution: {integrity: sha512-IcJsTkJae2S35pRsRAwoCE+925rJJStOdkKnLVgtE+tEpqU0EVVM7OqrwxqgptKdX29NUwC82I5pXsGFIgSevw==}
+  eslint-config-prettier@9.1.0:
+    resolution: {integrity: sha512-NSWl5BFQWEPi1j4TjVNItzYV7dZXZ+wP6I6ZhrBGpChQhZRUaElihE9uRRkcbRnNb76UMKDF3r+WTmNcGPKsqw==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -1258,6 +1258,10 @@ packages:
 
   node-gyp-build@4.6.1:
     resolution: {integrity: sha512-24vnklJmyRS8ViBNI8KbtK/r/DmXQMRiOMXTNz2nrTnAYUwjmEEbnnpB/+kt+yWRv73bPsSPRFddrcIbAxSiMQ==}
+    hasBin: true
+
+  node-gyp-build@4.8.4:
+    resolution: {integrity: sha512-LA4ZjwlnUblHVgq0oBF3Jl/6h/Nvs5fzBLwdEF4nuxnFdsfajde4WfxtJr3CaiH+F6ewcIB/q4jQ4UzPyid+CQ==}
     hasBin: true
 
   node-releases@2.0.14:
@@ -2543,7 +2547,7 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-config-prettier@9.0.0(eslint@9.23.0(jiti@1.21.7)):
+  eslint-config-prettier@9.1.0(eslint@9.23.0(jiti@1.21.7)):
     dependencies:
       eslint: 9.23.0(jiti@1.21.7)
 
@@ -3173,6 +3177,9 @@ snapshots:
 
   node-gyp-build@4.6.1: {}
 
+  node-gyp-build@4.8.4:
+    optional: true
+
   node-releases@2.0.14: {}
 
   nopt@5.0.0:
@@ -3709,7 +3716,7 @@ snapshots:
 
   utf-8-validate@6.0.3:
     dependencies:
-      node-gyp-build: 4.6.1
+      node-gyp-build: 4.8.4
     optional: true
 
   util-deprecate@1.0.2: {}
